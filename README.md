@@ -4,6 +4,12 @@
 
 回ごとにフォルダ分けしてます。
 
+## すべてをzipでダウンロード
+
+このページの右上にある緑色の「Clone or download」ボタンからでもできます。
+
+https://github.com/rev84/uhauha_programming/archive/master.zip
+
 ## 動画
 
 ### ニコニコ動画
