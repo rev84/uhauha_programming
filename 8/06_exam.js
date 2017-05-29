@@ -1,6 +1,7 @@
-total = 0;
 start = 1;
 end   = 100;
+
+total = 0;
 for (count = start; count <= end; count++) {
   total = total + count;
 }
