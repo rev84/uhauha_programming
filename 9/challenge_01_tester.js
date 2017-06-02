@@ -1,5 +1,5 @@
 func = function(){
-  dice = Math.floor(Math.random() * 100) + 1;
+  dice = Math.ceil(Math.random() * 100);
 
   message = "サイコロの結果は" + dice;
   if (dice <= 5) {
