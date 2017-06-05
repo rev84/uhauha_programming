@@ -22,5 +22,6 @@ https://www.youtube.com/playlist?list=PLnOBUd6-sseT1UEq1hLx0cBxmQoagzryw
 
 ## ライセンス
 
-各スクリプトは、MITライセンスで配布します。
+各スクリプトは、MITライセンスのもとに公開いたします。LICENSE.txt を参照してください。
 
+This software is released under the MIT License, see LICENSE.txt.
