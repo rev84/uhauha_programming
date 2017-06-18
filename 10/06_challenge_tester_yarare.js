@@ -1,13 +1,11 @@
-canBuy = function (money, price) {
-  // 所持金より値段の方が大きいなら
-  if (money < price) {
-    // 買えない
-    return false;
-  }
-  // 買える
+canBuy = function(money,price){
+ if(money >= price){
   return true;
+ }
+ else{
+  return false;
+ }
 };
-
 
 testCase = [
   //  money   price
