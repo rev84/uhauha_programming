@@ -1,6 +1,6 @@
 // 身長をランダムに返す
 randHeight = function () {
-  return 130 + Number((Math.floor(Math.random() * 50)).toFixed(1));
+  return 130 + Number((Math.random() * 50).toFixed(1));
 }
 
 // 100人の身長を変数に保存

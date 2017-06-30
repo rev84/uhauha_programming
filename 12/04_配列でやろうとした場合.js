@@ -1,6 +1,6 @@
 // 身長をランダムに返す
 randHeight = function () {
-  return 130 + Number((Math.floor(Math.random() * 50)).toFixed(1));
+  return 130 + Number((Math.random() * 50).toFixed(1));
 }
 
 // 配列の平均値を返す関数
