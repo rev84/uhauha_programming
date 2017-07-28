@@ -5,8 +5,8 @@
  *********************************************************/
 getRangeCount = function(ary, min, max) {
   var count = 0;
-  for (var index = 0; index < ary.length; index++) {
-    if (min <= ary[index] && ary[index] <= max) {
+  for(var index = 0;index < ary.length;index++){
+    if(min <= ary[index] && ary[index] <= max){
       count++;
     }
   }
