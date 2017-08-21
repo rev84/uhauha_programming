@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+#dummy {
+  /* 文字のサイズを2倍にする */
+  font-size: 200%;
+  /* 文字のサイズを5倍にする */
+  font-size: 500%;
+
+  /* 文字の色を白にする */
+  color: #ffffff;
+  /* 文字の色を赤にする */
+  color: #ff0000;
+  /* 文字の色を緑にする */
+  color: #00ff00;
+  /* 文字の色を青にする */
+  color: #0000ff;
+
+  /* 背景の色を白にする */
+  background-color: #ffffff;
+  /* 背景の色を赤にする */
+  background-color: #ff0000;
+  /* 背景の色を緑にする */
+  background-color: #00ff00;
+  /* 背景の色を青にする */
+  background-color: #0000ff;
+
+  /* 線で囲む */
+  border: 5px solid #000000;
+  /* 二重線で囲む */
+  border: 10px double #000000;
+}
+
+#p1 {
+  /* 文字の色を青にする */
+  color: #0000ff;
+}
+#p2 {
+
+}
+#p3 {
+  /* 二重線で囲む */
+  border: 10px double #000000;
+  /* 文字のサイズを2倍にする */
+  font-size: 200%;
+}
+#p4 {
+  /* 背景の色を緑にする */
+  background-color: #00ff00;
+  /* 文字の色を白にする */
+  color: #ffffff;
+}
+#p5 {
+  /* 文字のサイズを5倍にする */
+  font-size: 500%;
+  /* 背景の色を青にする */
+  background-color: #0000ff;
+  /* 文字の色を赤にする */
+  color: #ff0000;
+  /* 線で囲む */
+  border: 5px solid #000000;
+}

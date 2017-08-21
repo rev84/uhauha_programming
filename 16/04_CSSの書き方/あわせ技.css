@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+span {
+  font-size: 300%;
+}
+
+#number2 {
+  color: #ffffff; /* 白 */
+  background-color: #ff0000; /* 赤 */
+}
