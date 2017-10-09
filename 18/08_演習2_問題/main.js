@@ -1,5 +1,5 @@
 $().ready(function(){
-  $('button').on('click', diceChange);
+  $('button').on('click', changeDice);
 });
 
 // ボタンを押した時の待機員
