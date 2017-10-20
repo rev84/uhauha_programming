@@ -1,0 +1,47 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>宝くじ当選発表</h1>
+    <table>
+      <tr>
+        <th>当選</th>
+        <td><span id="reward_number"></span></td>
+        <td>100万円</td>
+      </tr>
+      <tr>
+        <th>おしいで賞</th>
+        <td>「当選」と上3桁が一致</td>
+        <td>1万円</td>
+      </tr>
+      <tr>
+        <th>参加賞</th>
+        <td>「当選」と下1桁が一致</td>
+        <td>300円</td>
+      </tr>
+    </table>
+
+    当選したくじの合計金額は、<span id="total_reward"></span>円です！
+
+    <h1>買ったくじの抽選結果</h1>
+
+    <table id="result">
+      <thead>
+        <th>購入番号</th>
+        <th>金額</th>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+
+  </body>
+
+
+</html>
