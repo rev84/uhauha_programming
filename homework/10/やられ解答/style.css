@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+table, th, td {
+  border: 1px solid #000000;
+}
+td span {
+  color: #ff0000;
+}
+#reward_number {
+  font-size: 300%;
+}
+#total_reward {
+  font-size: 500%;
+}
+.reward1 {
+  color:#ff0000;
+  font-weight: bold;
+}
+.reward2 {
+  color:#00ff00;
+  font-weight: bold;
+}
+.reward3 {
+  color:#0000ff;
+  font-weight: bold;
+}
