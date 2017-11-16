@@ -1,0 +1,7 @@
+main = function(){
+  
+};
+
+
+$().ready(main);
+
