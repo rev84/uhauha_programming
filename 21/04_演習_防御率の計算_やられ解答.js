@@ -14,6 +14,21 @@ var scores = {
   },
 };
 
+for (var name in scores) {
+  var inningCount = scores[name]["投球回"];
+  var jisekiCount = scores[name]["自責点"];
+
+  // 防御率
+  var era = (jisekiCount * 9) / inningCount;
+
+  // 投球経験有無
+  if(inningCount == 0){
+    console.log(name+"選手は投球したことがありません。");
+  }
+  else{
+    console.log(name+"選手の防御率は、"+era+"です。");
+  }
+}
 /****************************************
 「○○選手の防御率は、(防御率)です。」
 と選手全員分をconsole.logしてください。
@@ -24,17 +39,3 @@ var scores = {
 
 防御率 = (自責点 × 9) ÷ 投球回
 *****************************************/
-for (var name in scores) {
-  var inning    = scores[name]['投球回'];
-  var earnedRun = scores[name]['自責点'];
-
-  //if (earnedRun == 0) { ←間違い
-  if (inning == 0) {
-    console.log(name+'選手は投球したことがありません。');
-  }
-  else {
-    var guardRate = (earnedRun * 9) / inning;
-
-    console.log(name+'選手の防御率は、'+guardRate+'です。');
-  }
-}
