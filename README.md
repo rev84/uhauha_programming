@@ -28,11 +28,7 @@ http://www.nicovideo.jp/mylist/59781918
 
 #### 講座本編
 
-https://www.youtube.com/playlist?list=PLnOBUd6-sseT1UEq1hLx0cBxmQoagzryw
-
-#### 宿題
-
-https://www.youtube.com/playlist?list=PLnOBUd6-sseS2NJsTLBipLUxM5JBOMrWj
+https://www.youtube.com/playlist?list=PLzckwRJHh9_cZbTBPyN6WygtL58xx0wrY
 
 ## ライセンス
 
